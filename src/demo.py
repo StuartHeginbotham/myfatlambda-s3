@@ -4,7 +4,7 @@ import boto3
 logging.basicConfig(level=logging.INFO,
                     format='[%(asctime)s] {%(filename)s:%(lineno)d} %(levelname)s - %(message)s')
 
-logging.info('Fat Lambda Params ***STARTED***')
+logging.info('Fat Lambda S3 ***STARTED***')
 
 bucketname='stuarts-bucket'
 itemname='test.txt'
